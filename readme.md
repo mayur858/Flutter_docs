@@ -565,7 +565,11 @@ BUILD FAILED in 1m 38s
 Running Gradle task 'assembleRelease'...                          100.4s
 Gradle task assembleRelease failed with exit code 1
 ```
+##Note
 
+If you intend to maintain flutter application for a long time avoid using the third party dependecies you will be able
+to resolve the any issue with android and flutter Sdk but pub dependecies you will never be able to resovle if the 
+maintainer is not maintaining it.
 
 ## Links That Might Help
 
