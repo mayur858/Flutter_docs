@@ -569,7 +569,10 @@ Gradle task assembleRelease failed with exit code 1
 
 If you intend to maintain flutter application for a long time avoid using the third party dependecies you will be able
 to resolve any issue with android and flutter Sdk but pub dependecies you will never be able to resovle if the 
-maintainer is not maintaining it.
+maintainer is not maintaining it. If still you want to use the same here is what you can do inorder to integrate in 
+your program you can manually download and add that folder into your flutter project and add the path to that file in your pubspec.yaml file and would still be able to use the file in the project it would be alot easier to handle it 
+and maintain it you just simply have to update the SDK in the pubspec file of the project to make it compatible with
+Newer releases of flutter SDK.
 
 ## Links That Might Help
 
