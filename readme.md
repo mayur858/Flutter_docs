@@ -21,7 +21,7 @@ flutter pub get
 
 These command will delete the the android folder other dependencies and would reinstall them using the ***flutter pub get*** command, moving on will need to 
 resolve the pubspec.yaml file some of the dependencies are depreicated or are out of the order, what I mean by this is that they are no longer being maintain by 
-the maintainer or the dependencies is not up to the standard of the flutter SDK require it to run or have some null saftey issue.
+the maintainer or the dependencies is not up to the standard of the flutter SDK require it to run or have some null safety issue.
 
 
 Now comes the difficult part you will need to run and check the error in order to resolve the dependencies issue as updating all of them at the same time would 
@@ -573,6 +573,18 @@ maintainer is not maintaining it. If still you want to use the same here is what
 your program you can manually download and add that folder into your flutter project and add the path to that file in your pubspec.yaml file and would still be able to use the file in the project it would be alot easier to handle it 
 and maintain it you just simply have to update the SDK in the pubspec file of the project to make it compatible with
 Newer releases of flutter SDK.
+
+## Important
+
+In case if you are facing warning regarding and flutter build.gradle file then you must always make changes in
+
+```
+defultConfig{
+
+}
+```
+section only as these will run in case of specific case like if you have a dependecies which might require a
+specific ndk version that is need in order to run the following dependecies.
 
 ## Links That Might Help
 
