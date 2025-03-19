@@ -586,6 +586,8 @@ defultConfig{
 section only as these will run in case of specific case like if you have a dependecies which might require a
 specific ndk version that is need in order to run the following dependecies.
 
+- Just discover the shorebird make patch releases reallly easy instead of download the apk again and again you can simply update the issue with a patch in shorebird i would add the Documentation here for more context
+
 ## Links That Might Help
 
 [https://stackoverflow.com/questions/43928702/how-to-change-the-application-launcher-icon-on-flutter]
